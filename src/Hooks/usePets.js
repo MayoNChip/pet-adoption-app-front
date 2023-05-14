@@ -6,7 +6,7 @@ import CustomToast from "../utils/CustomToast";
 import CONFIG from "../utils/config";
 import { v4 as uuidv4 } from "uuid";
 
-const baseURL = process.env.BACKEND_BASE_URL || "http://localhost:4000";
+const baseURL = process.env.BACKEND_BASE_URL || "http://16.16.162.111:4000";
 
 export default function usePets() {
 	const {
